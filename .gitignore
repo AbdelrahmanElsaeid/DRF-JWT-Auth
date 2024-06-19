@@ -1,0 +1,39 @@
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Django related
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+.env 
+
+
+# Ignore the secret key file if it exists
+*.secret_key
+
+# Ignore .env file containing sensitive information
+.env
+
+# Ignore local settings file
+local_settings.py
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore pipenv/virtualenv requirements
+Pipfile.lock
+pipfile.lock
